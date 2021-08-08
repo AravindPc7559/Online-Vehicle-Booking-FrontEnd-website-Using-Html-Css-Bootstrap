@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+  }
+  .btn1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 78px;
+    margin-top: 36px;
+    cursor: pointer;
+  }
+  .btn1:hover{
+      background-color: #3e8e41;
+  }

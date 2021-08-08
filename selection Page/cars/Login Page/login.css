@@ -1,0 +1,43 @@
+
+/* set entire body that is webpage */
+body{
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+	padding-top: 25vh;	
+}
+/* set form background colour*/
+form{
+	background: rgb(53, 49, 49);
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+/* set entire body that is webpage */
+body{
+	background: #383a3d;
+	padding-top: 25vh;	
+}
+/* set form background colour*/
+form{
+	background: #fff;
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}

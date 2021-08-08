@@ -1,0 +1,428 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+</head>
+<body>
+
+    <!--header-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Online Vehicle Booking</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#latest new">Latest News</a></li>
+      
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Choose With Brand <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#Maruthi">Maruthi</a></li>
+          <li><a href="#Hyundai">Hyundai</a></li>
+          <li><a href="#Renault">Renault</a></li>
+          <li><a href="#Mahindra">Mahindra</a></li>
+
+        </ul>
+      </li>
+      
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="Sign up/sign up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="Login Page/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!--header-->
+
+<!--carousel-->
+<div id="myCarousel" class="carousel slide">
+
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner" style="margin-top: -21px;">
+        <div class="item active"> 
+               <img src="img/1.jpg" alt="CASHS" >
+        </div>
+        <div class="item"> 
+               <img   src="img/2.jpg" alt="SWAROVSKI">
+        </div>
+        <div class="item"> 
+               <img   src="img/3.jpg" alt="MARQUIS" >
+        </div>
+        <div class="item"> 
+               <img   src="img/4.jpg" alt="ORREFORS" >
+        </div>
+        <div class="item"> 
+            <img   src="img/5.jpg" alt="ORREFORS" >
+     </div>
+     <div class="item"> 
+        <img   src="img/6.jpg" alt="ORREFORS" >
+ </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glypicon glypicon-cheveron-left"></span>
+    </a>
+     <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glypicon glypicon-cheveron-right"></span>
+    </a>
+
+    <script>
+        $('#myCarousel').carousel({
+            interval: 1000
+        });
+        </script>
+
+
+</div>
+
+
+
+<!--carousel-->
+
+<!--card maruthi-->
+<div class="main" id="Maruthi">
+    <h1 style="font-weight: bold;">Maruthi Suzuki</h1>
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/8378/1614747593719/front-left-side-47.jpg?tr=w-456"></div>
+          <div class="card_content">
+            <h2 class="card_title">Maruti Suzuki Swift</h2>
+            <p class="card_text">Price :5.81 Lakh</p>
+            <p class="card_text">Engine:1197 cc</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+       <div class="card">
+          <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Ertiga/7048/1611730397556/front-left-side-47.jpg?tr=w-456"></div>
+          <div class="card_content">
+            <h2 class="card_title">Maruti Ertiga</h2>
+            <p class="card_text">Price : 7.81-10.59 Lakh</p>
+            <p class="card_text">Engine: 1462 cc</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Vitara-Brezza/7295/1585567830503/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Maruti Vitara Brezza</h2>
+              <p class="card_text">Price : 7.51-11.41 Lakh</p>
+              <p class="card_text">Engine: 1462 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/6778/1615985070703/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Maruti Baleno</h2>
+              <p class="card_text">Price : 5.98-9.30 Lakh</p>
+              <p class="card_text">Engine: 1197 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Dzire-2020/7664/1584705998420/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Maruti Dzire</h2>
+              <p class="card_text">Price : 5.98-9.02 Lakh</p>
+              <p class="card_text">Engine: 1197 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/SX4-S-Cross/7525/1596687171065/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Maruti S-Cross</h2>
+              <p class="card_text">Price : 8.39-12.39 Lakh</p>
+              <p class="card_text">Engine: 1462 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+    </ul>
+  </div>
+  
+  
+
+<!--card maruthi-->
+
+<!--card hyundai-->
+<h1 style="font-weight: bold; " id="Hyundai">Hyundai</h1>
+<div class="main">
+    
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/6775/1584360708758/front-left-side-47.jpg?tr=w-456"></div>
+          <div class="card_content">
+            <h2 class="card_title">Hyundai Creta</h2>
+            <p class="card_text">Price : 10.16-17.87 Lakh</p>
+            <p class="card_text">Engine : 1497 cc</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+       <div class="card">
+          <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/i20/6986/1604567349336/front-left-side-47.jpg?tr=w-456"></div>
+          <div class="card_content">
+            <h2 class="card_title">Hyundai i20</h2>
+            <p class="card_text">Price : 6.91-11.40 Lakh</p>
+            <p class="card_text">Engine : 1493 cc</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Venue/7931/1626089251600/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Hyundai Venue</h2>
+              <p class="card_text">Price : 6.99-11.85 Lakh</p>
+              <p class="card_text">Engine : 1498 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Alcazar/8459/1624013603874/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Hyundai Alcazar</h2>
+              <p class="card_text">Price : 16.30-20.14 Lakh</p>
+              <p class="card_text">Engine : 1999 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Aura/7234/1579610956226/front-view-118.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Hyundai Aura</h2>
+              <p class="card_text">Price :5.99-9.36 Lakh</p>
+              <p class="card_text">Engine : 1197 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Elantra/7168/1595226914508/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Hyundai Elantra</h2>
+              <p class="card_text">Price : 17.86-21.13 Lakh</p>
+              <p class="card_text">Engine : 1999 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Hyundai-Kona/6234/1562646651262/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Hyundai Kona Electric</h2>
+              <p class="card_text">Price : 23.79-23.97 Lakh</p>
+              <p class="card_text">Electric</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+    </ul>
+  </div>
+
+<!--card Hyundai-->
+
+<!--card Renault-->
+
+<h1 style="font-weight: bold; " id="Renault">Renault</h1>
+<div class="main">
+    
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/KWID/7426/1617274332690/front-left-side-47.jpg?tr=w-456"></div>
+          <div class="card_content">
+            <h2 class="card_title">Renault KWID</h2>
+            <p class="card_text">Price : 3.32-5.48 Lakh</p>
+            <p class="card_text">Engine :  999 cc</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+       <div class="card">
+          <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Triber/7418/1580113966019/front-left-side-47.jpg?tr=w-456"></div>
+          <div class="card_content">
+            <h2 class="card_title">Renault Triber</h2>
+            <p class="card_text">Price : 5.50-7.95 Lakh</p>
+            <p class="card_text">Engine : 999 cc</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Kiger/8361/1615378654259/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Renault Kiger</h2>
+              <p class="card_text">Price : 5.64-10.09 Lakh</p>
+              <p class="card_text">Engine : 999 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Duster/7704/1598257607089/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Renault Duster</h2>
+              <p class="card_text">Price : 9.86-14.25 Lakh</p>
+              <p class="card_text">Engine : 1498 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+    </ul>
+  </div>
+
+<!--card Renault-->
+
+
+<!--Mahindra-->
+
+<h1 style="font-weight: bold; " id="Mahindra">Mahindra</h1>
+<div class="main">
+    
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card" style="padding-top: 31px;">
+          <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/8076/1601635839903/front-left-side-47.jpg?tr=w-456"></div>
+          <div class="card_content">
+            <h2 class="card_title">Mahindra Thar</h2>
+            <p class="card_text">Price : 12.78-15.08 Lakh</p>
+            <p class="card_text">Engine : 2184 cc</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+       <div class="card" style="padding-top: 31px;">
+          <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Bolero/7718/1585205722972/front-left-side-47.jpg?tr=w-456"></div>
+          <div class="card_content">
+            <h2 class="card_title">Mahindra Bolero</h2>
+            <p class="card_text">Price : 8.62-9.61 Lakh</p>
+            <p class="card_text">Engine : 1498 cc</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card" style="padding-top: 31px">
+            <div class="card_image" ><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/XUV300/7242/1598341027093/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Mahindra XUV300</h2>
+              <p class="card_text">Price : 8.00-13.33 Lakh</p>
+              <p class="card_text">engine :  1497 cc    </p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card" style="padding-top: 31px;">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/XUV500/7799/1615375182591/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Mahindra XUV500</h2>
+              <p class="card_text">Price : 15.56-20.07 Lakh</p>
+              <p class="card_text">Engine :  2179 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+      <li class="cards_item">
+        <div class="card" style="padding-top: 31px;">
+            <div class="card_image"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Alturas-G4/7795/1591247461677/front-left-side-47.jpg?tr=w-456"></div>
+            <div class="card_content">
+              <h2 class="card_title">Mahindra Alturas G4</h2>
+              <p class="card_text">Price : 28.77-31.77 Lakh</p>
+              <p class="card_text">Engine : 2157 cc</p>
+              <button class="btn card_btn">Book Now</button>
+            </div>
+          </div>
+      </li>
+    </ul>
+  </div>
+
+<!--Mahindraa-->
+
+
+<!--Latest Iframe Videos-->
+
+<div class="container" style="margin-top" id="latest new">
+  <h2 style="text-align: center; font-weight: bold;">Latest Cars News</h2>
+  <div style="margin-top: 42px;" class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nNatcs20eUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<!--Latest Iframe Videos-->
+
+<!--footer-->
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+  <footer class="text-center text-lg-start" style="background-color: #db6930;     background-color: #db6930; margin-top: 29px; height: 71px;" >
+    <img src="https://img.icons8.com/material-rounded/24/000000/twitter.png"/>
+    <img src="https://img.icons8.com/material-rounded/24/000000/facebook.png"/>
+    <img src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png"/>
+    <div class="container d-flex justify-content-center py-5">
+      
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2); margin-top: 25px;">
+      © 2021 Copyright: | Made By Aravind Pc
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+</div>
+<!-- End of .container -->
+
+<!--footer-->
+  
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</body>
+</html>
